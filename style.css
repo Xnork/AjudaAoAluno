@@ -5,7 +5,7 @@
 
 .title-show {
     font-family: Arial;
-    font-size: 17px;
+    font-size: 19px;
 }
 
 a {
@@ -25,11 +25,14 @@ body {
 #main-bar h1 {
     padding: 10px;
     color:white;
+    font-size: 23px;
+    padding: 20px 0 20px 10px;
 }
 
 #main-bar ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    font-size: 10px;
 }
 #main-bar ul li{
     color:white;
@@ -61,15 +64,17 @@ body {
 .post p {
     color:white;
     padding: 15px;
+    font-size: 13px;
 }
 .post {
     background-color: rgb(24, 23, 23);
-    font-family: Cambria;
+    font-family: Arial, monospace;
     margin-bottom: 2px;
 }
 .post .image-show {
     height:210px;
     background-size:cover;
+    width: 100%;
 }
 .post h2 {
     font-size: 16px;
@@ -83,4 +88,5 @@ body {
     color: rgb(151, 151, 151);
     font-size: 10px;
     text-align: right;
+    margin-right: 25px;
 }
