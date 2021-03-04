@@ -7,6 +7,7 @@
     font-family: Arial;
     font-size: 19px;
     width: 100%;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
 }
 
 a {
@@ -21,7 +22,7 @@ body {
 
 #main-bar {
     background-color: #041c21;
-    
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
 }
 #main-bar h1 {
     padding: 10px;
@@ -33,7 +34,7 @@ body {
 #main-bar ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    font-size: 10px;
+    font-size: 9.99px;
 }
 #main-bar ul li{
     color:white;
@@ -42,8 +43,7 @@ body {
     list-style: none;
     background-color: #30444c;
     padding: 10px 0px 10px 0px;
-    border-left:solid 1px #45626d;
-    border-right:solid 1px #45626d;
+    
 }
 
 #main-bar ul li:hover {
@@ -61,6 +61,25 @@ body {
     color:white;
     text-transform: uppercase;
 }
+
+.post:nth-child(2) h1 {
+    animation-name: title-color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes title-color {
+    0% {
+        background-color: rgb(36, 40, 44);
+    }
+    50% {
+        background-color: rgb(0, 65, 38);
+    }
+    100% {
+        background-color: rgb(36, 40, 44);
+    }
+}
+
 .post a {
     color:rgb(79, 194, 79);
 }
@@ -108,7 +127,7 @@ body {
 
 .info {
     padding: 20px;
-    font-family: Arial;
+    font-family: monospace;
     border-bottom: solid 1px black;
     color:rgba(0,0,0,0.8);
 }
@@ -117,4 +136,5 @@ body {
     text-align: center;
     color:rgba(0,0,0,0.8);
     font-family: Arial;
+    padding: 20px;
 }
