@@ -31,7 +31,7 @@ body {
 
 #main-bar ul {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     font-size: 10px;
 }
 #main-bar ul li{
@@ -81,7 +81,6 @@ body {
     color:white;
     padding: 15px;
     border-top: solid 1px white;
-    border-bottom: solid 1px white;
     text-align: center;
 }
 .post footer {
