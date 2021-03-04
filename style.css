@@ -42,6 +42,8 @@ body {
     list-style: none;
     background-color: #30444c;
     padding: 10px 0px 10px 0px;
+    border-left:solid 1px #45626d;
+    border-right:solid 1px #45626d;
 }
 
 #main-bar ul li:hover {
