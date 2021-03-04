@@ -6,6 +6,7 @@
 .title-show {
     font-family: Arial;
     font-size: 19px;
+    width: 100%;
 }
 
 a {
@@ -66,10 +67,13 @@ body {
     padding: 15px;
     font-size: 13px;
 }
+
+
+
 .post {
     background-color: rgb(24, 23, 23);
     font-family: Arial, monospace;
-    margin-bottom: 2px;
+    border-bottom:solid 3px rgb(66, 66, 95);
 }
 .post .image-show {
     height:210px;
